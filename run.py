@@ -1,13 +1,10 @@
 import asyncio
 import logging
-
 from aiogram import Bot, Dispatcher
-
 from handlers.handlers import router
 from bot_instance import bot
 
 dp = Dispatcher()
-
 
 async def main():
     dp.include_router(router)
