@@ -2,12 +2,12 @@ from aiogram.types import (ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMa
 
 main_button = ReplyKeyboardMarkup( keyboard=[
         [KeyboardButton(text='записаться на консультацию')]
-], resize_keyboard=True, one_time_keyboard=True, input_field_placeholder='выберите действие...')
+], resize_keyboard=True, one_time_keyboard=True, input_field_placeholder='выбери действие...')
 
 start_button = ReplyKeyboardMarkup( keyboard=[
         [KeyboardButton(text='записаться на консультацию')],
         [KeyboardButton(text='как происходит первая консультация?')]
-], resize_keyboard=True, one_time_keyboard=True, input_field_placeholder='выберите действие...')
+], resize_keyboard=True, one_time_keyboard=True, input_field_placeholder='выбери действие...')
 
 cancel_button = ReplyKeyboardMarkup( keyboard=[
         [KeyboardButton(text='отмена')]
